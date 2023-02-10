@@ -78,7 +78,7 @@ const ProtectedLayout = () => {
 								</li>
 							</ul>
 							<hr style={{ borderTop: '1px dashed #0083B2' }} />
-							<ul className='nav nav-pills flex-column mb-sm-auto mb-0 align-items-start align-items-sm-start '>
+							<ul className='nav nav-pills flex-column mb-4 align-items-start align-items-sm-start '>
 								<li className='nav-item'>
 									<a href='#/configuration' className='nav-link px-0'>
 										<Gear /> <span className='d-none d-sm-inline'>Configuration</span>

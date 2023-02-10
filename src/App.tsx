@@ -1,20 +1,26 @@
 import React from 'react';
 import './App.css';
+import { HashRouter, Route, Routes } from 'react-router-dom';
+import IndexPage from './pages/IndexPage';
 
 function App() {
 
 
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <div style={{ width: '460px', margin: 'auto' }}>
-          <img
-            src='https://avatars.githubusercontent.com/u/121947399'
-            alt='logo'
-          />
-        </div>
-      </header>
-    </div>
+		<HashRouter>
+			<div className="App">
+				<Routes>
+					{/*<Route path="" element={<ProtectedLayout/>}>*/}
+						<Route index path="/" element={<IndexPage/>}/>
+					{/*	<Route path="/table/:project/:transformation" element={<TableViewPage/>}/>*/}
+					{/*</Route>*/}
+					{/*<Route element={<PublicLayout/>}>*/}
+					{/*	<Route path="/login" element={<LoginPage/>}/>*/}
+					{/*</Route>*/}
+				</Routes>
+			</div>
+		</HashRouter>
+
   );
 }
 

@@ -29,6 +29,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build # The folder the action should deploy.
-#        repository-name: fhactr/intext-web  #git@github.com:fhactr/intext-web.git
-#        token: ${{ secrets.BOT_DEPLOY_INTEXT_WEB }}
 

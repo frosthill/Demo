@@ -7,10 +7,8 @@ const IndexPage = () => {
 		<div className='App'>
 		  <header className='App-header'>
 		    <div style={{ width: '460px', margin: 'auto' }}>
-		      <img
-		        src='https://avatars.githubusercontent.com/u/121947399'
-		        alt='logo'
-		      />
+
+		      <img src={process.env.PUBLIC_URL + '/fh_logo.svg'} alt='logo' />
 		    </div>
 		  </header>
 		</div>
